@@ -85,6 +85,10 @@ Microsoft Visual C++ Compilation       {#msw_build_msvs}
    `TARGET_CPU=X64` to nmake command line to build Win64 versions
    (this only works if you are using a 64 bit compiler, of course).
 
+   In case of an error => "'nmake' is not recognized as an internal or external command,
+    operable program or batch file", make sure you are running the above commands inside Developer Command Prompt for VS 2019
+    instead of Windows Command Prompt.
+
    See "Configuring the Build" for more information about the
    additional parameters that can be specified on the command line.
 

@@ -6,7 +6,8 @@ had already cloned the repository without this option, please run `git
 submodule update --init` to also get all 3rd party libraries code.
 
 Before building from Git sources under Windows, you need to copy the
-file `include/wx/msw/setup0.h` to `include/wx/msw/setup.h`. This is
+file `include/wx/msw/setup0.h` to `include/wx/msw/setup.h`. Basically,
+rename the file `setup0.h` present in `include/wx/msw/` to `setup.h`. This is
 necessary in order to allow having local modifications to the latter
 file without showing it as modified, as it is not under version
 control.
